@@ -1,0 +1,15 @@
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\FtdAdapter.XML
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\FtdAdapter.dll
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\FtdAdapter.pdb
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\log4net.dll
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\Modbus.dll
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\Unme.Common.dll
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\Modbus.pdb
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\Modbus.xml
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\log4net.xml
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\bin\Debug\Unme.Common.xml
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\obj\Debug\FtdAdapter.csprojResolveAssemblyReference.cache
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\obj\Debug\FtdAdapter.Resources.resources
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\obj\Debug\FtdAdapter.csproj.GenerateResource.Cache
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\obj\Debug\FtdAdapter.dll
+C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\FtdAdapter\obj\Debug\FtdAdapter.pdb

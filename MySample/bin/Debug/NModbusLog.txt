@@ -1,0 +1,20 @@
+2015-06-27 18:06:36,063 DEBUG Modbus.Device.ModbusTcpSlave Listen - Start Modbus Tcp Server.
+2015-06-27 18:06:36,099 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 .ctor - Creating new Master connection at IP:127.0.0.1:59847
+2015-06-27 18:06:36,101 INFO  Modbus.IO.ModbusIpTransport Write - TX: 0, 1, 0, 0, 0, 6, 0, 4, 0, 100, 0, 5
+2015-06-27 18:06:36,105 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 .ctor - Begin reading header.
+2015-06-27 18:06:36,136 DEBUG Modbus.Device.ModbusTcpSlave AcceptCompleted - Accept completed.
+2015-06-27 18:06:36,137 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 ReadHeaderCompleted - Read header completed.
+2015-06-27 18:06:36,162 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadHeaderCompleted>b__0 - MBAP header: 0, 1, 0, 0, 0, 6
+2015-06-27 18:06:36,162 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadHeaderCompleted>b__0 - 6 bytes in PDU.
+2015-06-27 18:06:36,166 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadFrameCompleted>b__3 - Read Frame completed 6 bytes
+2015-06-27 18:06:36,167 INFO  Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadFrameCompleted>b__3 - RX: 0, 1, 0, 0, 0, 6, 0, 4, 0, 100, 0, 5
+2015-06-27 18:06:36,183 INFO  Modbus.Device.ModbusSlave ApplyRequest - Read 5 input registers starting at address 100.
+2015-06-27 18:06:36,208 INFO  Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadFrameCompleted>b__3 - TX: 0, 1, 0, 0, 0, 13, 0, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2015-06-27 18:06:36,208 DEBUG Modbus.IO.ModbusIpTransport ReadRequestResponse - MBAP header: 0, 1, 0, 0, 0, 13
+2015-06-27 18:06:36,210 DEBUG Modbus.IO.ModbusIpTransport ReadRequestResponse - 13 bytes in PDU.
+2015-06-27 18:06:36,210 DEBUG Modbus.IO.ModbusIpTransport ReadRequestResponse - PDU: 13
+2015-06-27 18:06:36,210 INFO  Modbus.IO.ModbusIpTransport ReadRequestResponse - RX: 0, 1, 0, 0, 0, 13, 0, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2015-06-27 18:06:36,210 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 WriteCompleted - End write.
+2015-06-27 18:06:36,211 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 <WriteCompleted>b__6 - Begin reading another request.
+2015-06-27 18:06:36,221 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 ReadHeaderCompleted - Read header completed.
+2015-06-27 18:06:36,221 DEBUG Modbus.Device.ModbusMasterTcpConnection.Instance1 <ReadHeaderCompleted>b__0 - 0 bytes read, Master has closed Socket connection.
