@@ -10,3 +10,15 @@ C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debu
 C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.csproj.GenerateResource.Cache
 C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.dll
 C:\Users\Ed\OneDrive\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.pdb
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\log4net.dll
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\Unme.Common.dll
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\log4net.xml
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\Unme.Common.xml
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.csprojResolveAssemblyReference.cache
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.Resources.resources
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\Modbus.csproj.GenerateResource.Cache
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\OmniModbus.xml
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\OmniModbus.dll
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\bin\Debug\OmniModbus.pdb
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\OmniModbus.dll
+C:\Users\Ed\OneDrive.old\Omni\Code Projects\iScale\Modbus\source\src\Modbus\obj\Debug\OmniModbus.pdb

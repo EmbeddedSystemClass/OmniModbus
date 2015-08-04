@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Modbus</RootNamespace>
-    <AssemblyName>Modbus</AssemblyName>
+    <AssemblyName>OmniModbus</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -27,7 +27,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>true</UseVSHostingProcess>
-    <DocumentationFile>bin\Debug\Modbus.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\OmniModbus.xml</DocumentationFile>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
@@ -38,14 +38,14 @@
     <DefineConstants>TRACE;CODE_ANALYSIS</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Modbus.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\OmniModbus.xml</DocumentationFile>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SignedRelease|AnyCPU' ">
     <OutputPath>bin\SignedRelease\</OutputPath>
     <DefineConstants>TRACE;CODE_ANALYSIS;SIGNED</DefineConstants>
-    <DocumentationFile>bin\SignedRelease\Modbus.XML</DocumentationFile>
+    <DocumentationFile>bin\SignedRelease\OmniModbus.xml</DocumentationFile>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,6 +56,9 @@
     <AssemblyOriginatorKeyFile>..\..\NModbusPublic.snk</AssemblyOriginatorKeyFile>
     <DelaySign>true</DelaySign>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OmniModbus %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
@@ -156,6 +159,9 @@
     <None Include="..\..\NModbusPublic.snk">
       <Link>NModbusPublic.snk</Link>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OmniModbus %281%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\tools\StyleCop\v4.3\Microsoft.StyleCop.Targets" />

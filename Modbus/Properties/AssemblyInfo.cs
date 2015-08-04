@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Modbus")]
+[assembly: AssemblyTitle("OmniModbus")]
 [assembly: AssemblyProduct("NModbus")]
 [assembly: AssemblyCopyright("Licensed under MIT License.")]
 [assembly: AssemblyDescription("Provides connectivity to Modbus slave compatible devices and applications.")]
