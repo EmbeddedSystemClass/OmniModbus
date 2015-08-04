@@ -8,7 +8,7 @@ using Modbus.Data;
 using Modbus.Device;
 using Modbus.Utility;
 
-namespace OmniModbusCommunicator
+namespace MySample
 {
 	/// <summary>
 	/// Demonstration of NModbus
@@ -36,7 +36,7 @@ namespace OmniModbusCommunicator
 			}
 			catch (Exception e)
 			{
-				Console.WriteLine(e.Message); 
+				Console.WriteLine(e.Message);
 			}
 
 			Console.ReadKey();
@@ -161,12 +161,11 @@ namespace OmniModbusCommunicator
 		{
 			using (TcpClient client = new TcpClient("127.0.0.1", 502))
 			{
-                
-                ModbusIpMaster master = ModbusIpMaster.CreateIp(client);
-             
+				ModbusIpMaster master = ModbusIpMaster.CreateIp(client);
+
 				// read five input values
-				ushort startAddress = 40001;
-				ushort numInputs = 18;
+				ushort startAddress = 100;
+				ushort numInputs = 5;
 				bool[] inputs = master.ReadInputs(startAddress, numInputs);
 
 				for (int i = 0; i < numInputs; i++)
@@ -311,7 +310,7 @@ namespace OmniModbusCommunicator
 			byte slaveId = 1;
 			int port = 502;
 			IPAddress address = new IPAddress(new byte[] { 127, 0, 0, 1 });
-            
+
 			// create and start the TCP slave
 			TcpListener slaveTcpListener = new TcpListener(address, port);
 			slaveTcpListener.Start();
@@ -323,17 +322,15 @@ namespace OmniModbusCommunicator
 			TcpClient masterTcpClient = new TcpClient(address.ToString(), port);
 			ModbusIpMaster master = ModbusIpMaster.CreateIp(masterTcpClient);
 
-			ushort numInputs = 19;
-			ushort startAddress = 40001;
+			ushort numInputs = 5;
+			ushort startAddress = 100;
 
-			// read register values
-			UInt16[] inputs = master.ReadInputRegisters(startAddress, numInputs);
+			// read five register values
+			ushort[] inputs = master.ReadInputRegisters(startAddress, numInputs);
 
 			for (int i = 0; i < numInputs; i++)
 				Console.WriteLine("Register {0}={1}", startAddress + i, inputs[i]);
-                Console.WriteLine("Start Address ={0}", startAddress);
-                Console.WriteLine("Number of Inputs ={0}", numInputs);
-                Console.WriteLine("Omni-ID Modbus Communication Successful");
+
 			// clean up
             
 			masterTcpClient.Close();
@@ -367,10 +364,10 @@ namespace OmniModbusCommunicator
             ModbusIpMaster OmniMaster = ModbusIpMaster.CreateIp(masterTcpClient);
 
             ushort numFlagInputs = 1;
-            ushort pollingAddressStart = 40018;
-            ushort dataAddressStart = 40001;
-            int numInputsTagID = 6;
-            int numInputsWeight = 2;
+            ushort pollingAddressStart = 4000;
+            ushort dataAddressStart = 4001;
+            int numInputsTagID = 5;
+            int numInputsWeight = 5;
             ushort numInputs = (ushort)(numInputsTagID + numInputsWeight);
 
             Thread pollingThreadOmni = new Thread(() => PollSlaveOmniId(OmniMaster, pollingAddressStart, numFlagInputs, dataAddressStart, numInputs));
@@ -415,7 +412,6 @@ namespace OmniModbusCommunicator
                 {
                     ReadSlaveOmniID(OmniMaster, dataStartAddress, dataNumInputs);
                 }
-                Thread.Sleep(1000);
             }
      
         }
